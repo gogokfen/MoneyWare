@@ -17,11 +17,19 @@ public class TargetAim : MonoBehaviour
             transform.position = Input.mousePosition;
             ammo--;
 
-            hits = Physics2D.OverlapBoxAll(transform.position, new Vector2(128, 128), 0, LM);
+            hits = Physics2D.OverlapBoxAll(transform.position, new Vector2(32, 32), 0, LM);
             
             if (hits.Length>0)
                 for (int i = 0; i < hits.Length; i++)
                 {
+                    for (int j=0;j<hits.Length;j++)
+                    {
+                        if (hits[j].name == "Blockade")
+                        {
+                            return;
+                        }
+                    }
+
                     hits[i].transform.SetParent(null);
                     Destroy(hits[i].gameObject);
                 }
