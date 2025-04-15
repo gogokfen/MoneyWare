@@ -5,10 +5,18 @@ public class TargetAim : MonoBehaviour
 {
     [SerializeField] Transform enemiesContainer;
     [SerializeField] int ammo;
-    bool won = false;
+    private int ammoIndex;
+    private bool won = false;
 
     private Collider2D[] hits;
     private LayerMask LM = 64; //interactable layer
+
+    [SerializeField] GameObject[] bullets;
+
+    private void Start()
+    {
+        ammoIndex = ammo;
+    }
 
     void Update()
     {
@@ -16,6 +24,8 @@ public class TargetAim : MonoBehaviour
         {
             transform.position = Input.mousePosition;
             ammo--;
+            ammoIndex--;
+            bullets[ammoIndex].SetActive(false);
 
             hits = Physics2D.OverlapBoxAll(transform.position, new Vector2(32, 32), 0, LM);
             
