@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ccf8897816184547837d79e0bc55bc2, type: 3}
-  m_Name: Matkot
+  m_Name: ShakedownData
   m_EditorClassIdentifier: 
-  minigamePrefab: {fileID: 5149034125602662222, guid: 5113b61947759d24caff210a8579d006, type: 3}
+  minigamePrefab: {fileID: 180762735566652766, guid: 577a972b3e75c4844a388b5cee083282, type: 3}
   countdownTime: 6
-  minigamePrompt: Matkot
+  minigamePrompt: Shakedown!

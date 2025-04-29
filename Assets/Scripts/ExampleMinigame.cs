@@ -5,12 +5,10 @@ using UnityEngine.UI;
 
 public class ExampleMinigame : MonoBehaviour
 {
-    private GameManager gameManager;
     [SerializeField] Button winButton;
     [SerializeField] Button loseButton;
     void Start()
     {
-        gameManager = FindAnyObjectByType<GameManager>();
         winButton.onClick.AddListener(OnWinButtonClicked);
         loseButton.onClick.AddListener(OnLoseButtonClicked);
     }
@@ -20,11 +18,11 @@ public class ExampleMinigame : MonoBehaviour
     }
     void OnWinButtonClicked()
     {
-        gameManager.WinMG();
+        GameManager.instance.WinMG();
     }
 
     void OnLoseButtonClicked()
     {
-        gameManager.LoseMG();   
+        GameManager.instance.LoseMG();   
     }
 }

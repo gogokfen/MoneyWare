@@ -3,6 +3,7 @@ using UnityEngine;
 using TMPro;
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
     public int lives = 4;
     public int score = 0;
     private float timer = 0;
@@ -18,6 +19,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] Animator background;
     [SerializeField] AudioSource audioSource;
     [SerializeField] MinigameData[] minigameDatas;
+    private void Awake() 
+    {
+        instance = this;
+    }
     void Start()
     {
         Application.targetFrameRate = 60;
