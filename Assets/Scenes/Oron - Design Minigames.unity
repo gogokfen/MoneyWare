@@ -901,7 +901,8 @@ MonoBehaviour:
   background: {fileID: 107537405}
   audioSource: {fileID: 847775260}
   minigameDatas:
-  - {fileID: 11400000, guid: 1812c8d38ea70bf44a9bb4ae67f952ab, type: 2}
+  - {fileID: 11400000, guid: 28131f2bcdb6b86498baa37454f0e135, type: 2}
+  eventSystem: {fileID: 2038340378}
 --- !u!4 &1408552104
 Transform:
   m_ObjectHideFlags: 0

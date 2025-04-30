@@ -38,10 +38,10 @@ public class ShakeMinigame : MonoBehaviour
             currentShakeCount++;
             timeSinceLastShake = 0f;
             animator.speed = 1;
-            //Debug.Log($"Shake detected! Count: {currentShakeCount}");
+            Debug.Log($"Shake detected! Count: {currentShakeCount}");
             if (currentShakeCount >= shakesNeeded && !minigameEnded)
             {
-                //Debug.Log("Shake threshold reached!");
+                Debug.Log("Shake threshold reached!");
                 currentShakeCount = 0;
                 coinPile.SetActive(true);
                 AS.PlayOneShot(alrightClip);
@@ -56,7 +56,7 @@ public class ShakeMinigame : MonoBehaviour
             if (timeSinceLastShake >= shakeTimeout)
             {
                 if (currentShakeCount > 0)
-                    //Debug.Log("Shake timeout, resetting counter.");
+                    Debug.Log("Shake timeout, resetting counter.");
                 currentShakeCount = 0;
                 timeSinceLastShake = 0f;
             }

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MafiaGuyHand_0: 5652897017284965006
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

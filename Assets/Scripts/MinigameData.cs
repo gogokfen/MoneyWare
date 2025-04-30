@@ -6,4 +6,11 @@ public class MinigameData : ScriptableObject
     public GameObject minigamePrefab;
     public float countdownTime;
     public string minigamePrompt;
+    public MinigameType minigameType;
+    public enum MinigameType
+    {
+        Default,
+        LoseByTimeout,
+        WinByTimeout
+    }
 }

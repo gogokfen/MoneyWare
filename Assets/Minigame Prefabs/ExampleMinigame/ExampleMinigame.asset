@@ -15,3 +15,4 @@ MonoBehaviour:
   minigamePrefab: {fileID: 3879392466756099713, guid: 5c245eb936803164b87bda7aa20a8257, type: 3}
   countdownTime: 6
   minigamePrompt: Click!
+  minigameType: 2

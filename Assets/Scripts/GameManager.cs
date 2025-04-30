@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.EventSystems;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -12,6 +13,7 @@ public class GameManager : MonoBehaviour
     private GameObject currentMG;
     private bool minigameActive = false;
     private bool minigameEnded = false;
+    private MinigameData.MinigameType selectedMinigameType;
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField] TextMeshProUGUI timerText;
@@ -19,6 +21,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Animator background;
     [SerializeField] AudioSource audioSource;
     [SerializeField] MinigameData[] minigameDatas;
+    [SerializeField] EventSystem eventSystem;
     private void Awake() 
     {
         instance = this;
@@ -38,7 +41,8 @@ public class GameManager : MonoBehaviour
             timerText.text = ((int)timer + 1).ToString();
             if (timer <= 0 && !minigameEnded)
             {
-                LoseMG();
+                if (selectedMinigameType == MinigameData.MinigameType.LoseByTimeout) LoseMG();
+                else if (selectedMinigameType == MinigameData.MinigameType.WinByTimeout) WinMG();
             }
         }
     }
@@ -128,6 +132,7 @@ public class GameManager : MonoBehaviour
         currentMG = Instantiate(selectedMinigame.minigamePrefab, gameObject.transform);
         promptText.text = selectedMinigame.minigamePrompt;
         timer = selectedMinigame.countdownTime;
+        selectedMinigameType = selectedMinigame.minigameType;
     }
     void UpdateUI()
     {
