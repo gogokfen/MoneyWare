@@ -15,3 +15,4 @@ MonoBehaviour:
   minigamePrefab: {fileID: 4761886951429186586, guid: 6b67b9b47e4fb4743abd4a56aaf73167, type: 3}
   countdownTime: 5
   minigamePrompt: Yeet
+  minigameType: 1

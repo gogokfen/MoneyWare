@@ -9,7 +9,7 @@ public class TreasureYeet : MonoBehaviour
     [SerializeField] Transform yeetTransform;
     [SerializeField] Transform canvas;
     [SerializeField] GraphicRaycaster GR;
-    [SerializeField] EventSystem ES;
+    private EventSystem ES;
 
     private PointerEventData raycastData;
 
@@ -23,6 +23,7 @@ public class TreasureYeet : MonoBehaviour
     private int treasureCount;
     void Start()
     {
+        ES = GameManager.instance.eventSystem;
         raycastData = new PointerEventData(ES);
     }
 
@@ -54,8 +55,7 @@ public class TreasureYeet : MonoBehaviour
                     treasureCount++;
                     if (treasureCount >= 4)
                     {
-                        GameManager gameManager = FindAnyObjectByType<GameManager>(); //change later
-                        gameManager.WinMG();
+                        GameManager.instance.WinMG();
                     }
                 }
             }

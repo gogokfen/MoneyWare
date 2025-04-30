@@ -47,8 +47,7 @@ public class TargetAim : MonoBehaviour
             if (enemiesContainer.childCount == 0)
             {
                 won = true;
-                GameManager gameManager = FindAnyObjectByType<GameManager>(); //change later
-                gameManager.WinMG();
+                GameManager.instance.WinMG();
             }
         }
     }

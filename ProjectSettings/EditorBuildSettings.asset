@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Oron - Design Minigames.unity
-    guid: 408b57ac213c98d44a1b620acfa7206d
+    path: Assets/Scenes/Design Minigames Scene.unity
+    guid: 6646b76a631043f499b09a15917c5dd4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

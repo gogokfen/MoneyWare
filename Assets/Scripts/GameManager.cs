@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Animator background;
     [SerializeField] AudioSource audioSource;
     [SerializeField] MinigameData[] minigameDatas;
-    [SerializeField] EventSystem eventSystem;
+    public EventSystem eventSystem;
     private void Awake() 
     {
         instance = this;
