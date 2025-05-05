@@ -14,7 +14,6 @@ public class NormalCar : MonoBehaviour
 
         if (Physics2D.OverlapBox(transform.position,new Vector2(256,512),0))
         {
-            Debug.Log("lost Getaway minigame!");
             GameManager.instance.LoseMG();
         }
     }
