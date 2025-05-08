@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minigamePrefab: {fileID: 7863371129328422917, guid: d042498c8d3601e4e9b226e339fc54ae, type: 3}
   countdownTime: 9
+  minigameName: Blackmail
   minigamePrompt: Blackmail!
   minigameType: 1
+  character: 1

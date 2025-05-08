@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minigamePrefab: {fileID: 180762735566652766, guid: 577a972b3e75c4844a388b5cee083282, type: 3}
   countdownTime: 6
+  minigameName: Shakedown
   minigamePrompt: Shakedown!
   minigameType: 1
+  character: 1

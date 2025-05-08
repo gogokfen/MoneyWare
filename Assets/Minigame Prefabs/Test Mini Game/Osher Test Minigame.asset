@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minigamePrefab: {fileID: 6166668673236018562, guid: 408314b3ae5c71a4e85be24e1ae9e5c7, type: 3}
   countdownTime: 4
+  minigameName: Shoot
   minigamePrompt: Shoot!
   minigameType: 1
+  character: 0

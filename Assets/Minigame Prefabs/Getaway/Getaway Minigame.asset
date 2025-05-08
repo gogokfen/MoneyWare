@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minigamePrefab: {fileID: 8145350448218473900, guid: 33a3ce350fd4ecb41a49fb28672f9aa4, type: 3}
   countdownTime: 6
+  minigameName: Getaway
   minigamePrompt: Getaway!
   minigameType: 2
+  character: 1

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 78574960666e5e14fb27cdc2953847c0
+guid: f725e4dccf5b0ce4b8b6ea1852ea5e95
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3684827556449468539
-    second: Floating Word 4_0
+      213: 365018242333661824
+    second: GuardCaught_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floating Word 4_0
+      name: GuardCaught_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 17
-        width: 384
-        height: 209
+        x: 147
+        y: 52
+        width: 263
+        height: 786
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b70cdb8b323232330800000000000000
-      internalID: 3684827556449468539
+      spriteID: 08ad5de482ec01500800000000000000
+      internalID: 365018242333661824
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Floating Word 4_0: 3684827556449468539
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

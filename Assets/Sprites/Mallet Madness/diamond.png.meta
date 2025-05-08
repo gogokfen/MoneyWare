@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 78574960666e5e14fb27cdc2953847c0
+guid: e80bca2b941f5e243bff11718b613fe6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3684827556449468539
-    second: Floating Word 4_0
+      213: 6586461156150141773
+    second: diamond_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floating Word 4_0
+      name: diamond_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 17
-        width: 384
-        height: 209
+        y: 52
+        width: 512
+        height: 409
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b70cdb8b323232330800000000000000
-      internalID: 3684827556449468539
+      spriteID: d43ec33668fc76b50800000000000000
+      internalID: 6586461156150141773
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Floating Word 4_0: 3684827556449468539
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

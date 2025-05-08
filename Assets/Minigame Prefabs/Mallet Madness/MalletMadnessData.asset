@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ccf8897816184547837d79e0bc55bc2, type: 3}
-  m_Name: Treasure Yeet Minigame
+  m_Name: MalletMadnessData
   m_EditorClassIdentifier: 
-  minigamePrefab: {fileID: 4761886951429186586, guid: 6b67b9b47e4fb4743abd4a56aaf73167, type: 3}
-  countdownTime: 5
-  minigameName: Yeet Island
-  minigamePrompt: Yeet
+  minigamePrefab: {fileID: 3879392466756099713, guid: 9bf1994f234fabf488c8ea9cd095f9a1, type: 3}
+  countdownTime: 10
+  minigameName: Mallet Madness
+  minigamePrompt: Break
   minigameType: 1
-  character: 2
+  character: 3
