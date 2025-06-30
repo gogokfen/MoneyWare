@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 530b436d9656da840ab318ffd8ca3509
+guid: 37440799218bc8646bb45e126d637108
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6676376675948539611
-    second: 4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_0
+      213: 826934003554966524
+    second: B76F9204-ECF4-4435-BED2-4E23B2851E1B_0
   - first:
-      213: -5119331385395853513
-    second: 4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_1
+      213: 4370314919043241972
+    second: B76F9204-ECF4-4435-BED2-4E23B2851E1B_1
   - first:
-      213: -5770122305015643013
-    second: 4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_2
+      213: -3330587396064108409
+    second: B76F9204-ECF4-4435-BED2-4E23B2851E1B_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,11 +52,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.51291984, y: 0.06718345}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -119,67 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_0
+      name: B76F9204-ECF4-4435-BED2-4E23B2851E1B_0
       rect:
         serializedVersion: 2
-        x: 451
-        y: 1252
-        width: 947
-        height: 725
+        x: 1158
+        y: 499
+        width: 600
+        height: 390
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdead9cb63147ac50800000000000000
-      internalID: 6676376675948539611
+      spriteID: cfbd59e481cd97b00800000000000000
+      internalID: 826934003554966524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_1
+      name: B76F9204-ECF4-4435-BED2-4E23B2851E1B_1
       rect:
         serializedVersion: 2
-        x: 806
-        y: 516
-        width: 412
-        height: 629
+        x: 1298
+        y: 178
+        width: 542
+        height: 348
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 737c8f57a3b74f8b0800000000000000
-      internalID: -5119331385395853513
+      spriteID: 4f79922934a76ac30800000000000000
+      internalID: 4370314919043241972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_2
+      name: B76F9204-ECF4-4435-BED2-4E23B2851E1B_2
       rect:
         serializedVersion: 2
-        x: 739
-        y: 31
-        width: 662
-        height: 363
+        x: 1306
+        y: 452
+        width: 7
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b740cf2c5586cefa0800000000000000
-      internalID: -5770122305015643013
+      spriteID: 780a434d86067c1d0800000000000000
+      internalID: -3330587396064108409
       vertices: []
       indices: 
       edges: []
@@ -188,8 +188,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -197,10 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_0: 6676376675948539611
-      4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_1: -5119331385395853513
-      4C831EC4-AC55-44EC-AC37-3935ECFCBD6C_2: -5770122305015643013
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
