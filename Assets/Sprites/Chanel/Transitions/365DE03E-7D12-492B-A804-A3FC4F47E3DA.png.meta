@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: d772e2b26beafdf4a9260373c8a68180
+guid: e2eb96f92282d7e42a02400e1f138680
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7262255472209821884
-    second: Mallet_0
+      213: -74704444048468619
+    second: 365DE03E-7D12-492B-A804-A3FC4F47E3DA_0
+  - first:
+      213: -8127539527816044978
+    second: 365DE03E-7D12-492B-A804-A3FC4F47E3DA_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mallet_0
+      name: 365DE03E-7D12-492B-A804-A3FC4F47E3DA_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
+        x: 864
+        y: 299
+        width: 315
+        height: 334
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb00439ffd6b8c460800000000000000
-      internalID: 7262255472209821884
+      spriteID: 575195534b896fef0800000000000000
+      internalID: -74704444048468619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 365DE03E-7D12-492B-A804-A3FC4F47E3DA_1
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 531
+        width: 271
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e149a6cdd253f80800000000000000
+      internalID: -8127539527816044978
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Mallet_0: 7262255472209821884
+      365DE03E-7D12-492B-A804-A3FC4F47E3DA_0: -74704444048468619
+      365DE03E-7D12-492B-A804-A3FC4F47E3DA_1: -8127539527816044978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
